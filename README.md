@@ -2,7 +2,7 @@
 
 
 ## Nombre del Equipo
-- 'SantiagoPozzolo-TobiasMedina-MarcosPirchio-FrancoTocci'
+- 'OmarCuarterolo'
 
 ## Integrantes del Equipo
 - Santiago Pozzolo 
