@@ -7,7 +7,7 @@ from selenium.webdriver.common.keys import Keys
 def generarTest(driver):
     driver.get('https://magento.softwaretestingboard.com/')
     driver.maximize_window()
-    time.sleep(8) #para que cargue bien toda la pagina
+    time.sleep(8)
 
     signIn = driver.find_element(By.XPATH, '/html/body/div[2]/header/div[1]/div/ul/li[2]/a')
     signIn.click()
