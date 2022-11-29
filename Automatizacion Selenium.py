@@ -7,7 +7,7 @@ from selenium.webdriver.common.keys import Keys
 def generarTest(driver):
     driver.get('https://www.jotform.com/build/223207084451651')
     driver.maximize_window()
-    driver.implicitly_wait(8) #para que cargue bien toda la pagina
+    driver.implicitly_wait(8)
 
     nombre = driver.find_element(By.NAME, "q3_name[first]")
     nombre.send_keys('Nombre test')
