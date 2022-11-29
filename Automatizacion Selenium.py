@@ -9,7 +9,6 @@ def generarTest(driver):
     driver.maximize_window()
     driver.implicitly_wait(8) #para que cargue bien toda la pagina
 
-    # arranque de generacion de datos automatizados
     nombre = driver.find_element(By.NAME, "q3_name[first]")
     nombre.send_keys('Nombre test')
     apellido = driver.find_element(By.NAME, 'q3_name[last]')
